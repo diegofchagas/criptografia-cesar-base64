@@ -1,0 +1,115 @@
+ @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Comforter+Brush&family=Courgette&family=Lora:ital@1&family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Roboto:ital,wght@0,300;0,500;1,100;1,300;1,400;1,700&family=Titillium+Web:ital,wght@0,200;0,300;1,300&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+ 
+   
+} 
+
+body{
+    background-image: url("./image/Cool\ Sky.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+li{
+    list-style-type: none;
+}
+
+div{ 
+    box-sizing: border-box;
+    background-image: url("./image/criptografia.png");
+    width: 600px;
+    height: 650px;
+    margin: auto;
+    padding: 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-position: center;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+    
+}
+
+h1{ text-align: center;
+margin-bottom: 15px;
+color: white;}
+
+p{
+    text-align: left;
+    color: white;
+}
+
+.digite{
+    color:white;
+}
+
+#selecionar{
+    color:rgb(9, 128, 240);
+    font-weight: 700;
+}
+
+
+
+
+div form{
+     margin: 20px 15px; 
+    margin:  20px auto;
+}
+
+.text-area{
+    color: rgb(9, 58, 218);
+    font-size: 20px;
+}
+
+#resposta{
+ color: white;
+ display: none;
+
+  
+}
+
+#passoCifra{
+    color: white;
+}
+
+.numero{
+    color:rgb(9, 128, 240);
+    font-weight: 700;
+}
+
+.sub-titulo{
+    color: white;
+    display: none;
+}
+
+#botao{
+    border: none;
+    width: 35%;
+    height: 35px;
+    text-align: center;
+    background-color: rgb(30, 105, 190);
+    color: cornsilk;
+    transition: 1.5s;
+    margin-left: 100px;
+    border-radius: 20%;
+    font-size: 20px;
+   
+   
+}
+
+#botao:hover{
+    background-color: rgb(16, 63, 102);
+    color: tomato;
+    transform: scale(1.1);
+    border-radius: 20%;
+    cursor: pointer;
+} 

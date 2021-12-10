@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Criptografia de Cesar e Base64</title>
+</head>
+<body>
+
+    <main>
+    <div>
+    <h1>Criptografia de Cesar & Base 64</h1>
+
+    <p>Seja bem vindo ao codificador e decodificador de cesar,
+        está na hora de digitar sua mensagem e escolher o que deseja fazer para que a mensagem seja enviada com segurança até o destino final!</p>
+
+        <form>
+
+        <label class="digite"> Digite sua mensagem:</label> <br>
+        <textarea  class="text-area"  name="" id="mensagem" cols="35" rows="3"></textarea>
+        <br><br>
+
+        <label class="digite">Selecione a criptografia:</label>
+        <select  id="selecionar">
+            <option  value="cifra-de-cesar">cifra-de-cesar</option>
+            <option  value="base64">base64</option>
+        </select>
+
+        <br> <br>
+        <ul>
+            <li>
+                <input name="codificar" class="coder" type="radio" checked>
+                <label  class="digite" for="">Codificar</label>
+            </li>
+            <li class="direita">
+                
+                <input name="codificar" class="coder" type="radio" >
+                <label class="digite" >Decodificar</label>
+            </li>
+        </ul>
+                <br><br>
+            <ul>
+                
+                <li>
+                    <label id="passoCifra">Passo:</label>
+                    <input class="numero" type="number"  id="number" min="0" max="25">
+                </li>
+            </ul>
+
+            <br><br>
+
+            <h2 class="sub-titulo">Mensagem codificada:</h2>
+
+            <p id="resposta"></p>
+        </form>
+
+        <br><br><br>
+        <button id="botao">enviar</button>
+
+    </div>
+
+</main>
+        
+
+    <script src="./script.js"></script>
+
+      
+    
+</body>
+</html>
